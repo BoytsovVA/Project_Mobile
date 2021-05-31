@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#02FFFFFF">
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F8E7CE"
+        android:foreground="@drawable/poi12"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/Favorite"
+        android:layout_width="87dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="70dp"
+
+        android:layout_marginRight="70dp"
+        android:background="#05FFFFFF"
+        android:padding="1dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/star_favorites"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/Notes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toEndOf="@+id/Fridg"
+        app:layout_constraintTop_toTopOf="@+id/view4"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+
+    <ImageButton
+        android:id="@+id/Notes"
+        android:layout_width="87dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="170dp"
+        android:background="#05FFFFFF"
+        android:padding="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/hotpng_com"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/view4"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toEndOf="@+id/Search"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/Fridg"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="87dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginBottom="65dp"
+        android:adjustViewBounds="false"
+        android:background="#05E09AF3"
+        android:baselineAlignBottom="false"
+        android:bottomLeftRadius="12.0dip"
+        android:bottomRightRadius="12.0dip"
+        android:padding="8dp"
+        android:paddingLeft="250dp"
+        android:paddingTop="150dp"
+        android:paddingRight="250dp"
+        android:paddingBottom="150dp"
+        android:radius="12.0dip"
+        android:scaleType="fitXY"
+        android:shape="ring"
+        android:src="@drawable/kisspng_refrigerator_freezers_computer_icons_kitchen_cabin_cartoon_fridge_5b37c75869fe52_8350606415303821684342"
+        android:tint="#090909"
+        android:topLeftRadius="12.0dip"
+        android:topRightRadius="12.0dip"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/Search"
+        app:layout_constraintStart_toStartOf="@+id/view4"
+        app:layout_constraintTop_toTopOf="@+id/view4"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/Search"
+        android:layout_width="87dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginBottom="170dp"
+        android:background="#05FFFFFF"
+        android:padding="8dp"
+        android:paddingLeft="250dp"
+
+        android:paddingTop="150dp"
+        android:paddingRight="250dp"
+        android:paddingBottom="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/a1a21a22"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:src="@drawable/a1a21a22" />
+
+    <ImageButton
+        android:id="@+id/Back"
+        android:layout_width="87dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"
+        android:background="#05FFFFFF"
+        android:padding="1dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/monotone_arrow_left_small"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="@+id/view4"
+        app:layout_constraintTop_toBottomOf="@+id/Notes"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

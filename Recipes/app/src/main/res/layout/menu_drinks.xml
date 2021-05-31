@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2FBC2B0"
+    tools:context="com.example.Recipes.screens.search">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:id="@+id/alcoholic"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="#05FFFFFF"
+                android:padding="0dp"
+                android:paddingLeft="250dp"
+                android:paddingTop="150dp"
+                android:paddingRight="250dp"
+                android:paddingBottom="150dp"
+                android:scaleType="fitXY"
+                android:translationX="0dp"
+                android:translationY="0dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/alco"
+                tools:ignore="ContentDescription,MissingConstraints"
+                tools:srcCompat="@drawable/alco" />
+
+            <TextView
+                android:id="@+id/Alcoholic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ellipsize="middle"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Алкогольные напитки"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/non_alcoholic"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="#05FFFFFF"
+                android:padding="0dp"
+                android:paddingLeft="250dp"
+                android:paddingTop="150dp"
+                android:paddingRight="250dp"
+                android:paddingBottom="100dp"
+                android:scaleType="fitXY"
+                android:translationX="0dp"
+                android:translationY="0dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/nonalco2"
+                tools:ignore="ContentDescription,MissingConstraints"
+                tools:srcCompat="@drawable/nonalco2" />
+
+            <TextView
+                android:id="@+id/Non_alcoholic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ellipsize="middle"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Безалкогольные напитки"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/hot"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="#05FFFFFF"
+                android:padding="0dp"
+                android:paddingLeft="250dp"
+                android:paddingTop="150dp"
+                android:paddingRight="250dp"
+                android:paddingBottom="150dp"
+                android:scaleType="fitXY"
+                android:translationX="0dp"
+                android:translationY="0dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/rjt1"
+                tools:ignore="ContentDescription,MissingConstraints"
+                tools:srcCompat="@drawable/rjt1" />
+
+            <TextView
+                android:id="@+id/Hot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ellipsize="middle"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Горячие напитки"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

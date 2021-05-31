@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2FBC2B0"
+    tools:context="com.example.Recipes.screens.search">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/vegan"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="#05FFFFFF"
+                android:padding="0dp"
+                android:paddingLeft="250dp"
+                android:paddingTop="150dp"
+                android:paddingRight="250dp"
+                android:paddingBottom="150dp"
+                android:scaleType="fitXY"
+                android:translationX="0dp"
+                android:translationY="0dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/a3a3a3"
+                tools:ignore="ContentDescription,MissingConstraints"
+                tools:srcCompat="@drawable/a3a3a3" />
+
+            <TextView
+                android:id="@+id/Vegan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ellipsize="middle"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Вегетарианские блюда"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/sport"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="#05FFFFFF"
+                android:padding="0dp"
+                android:paddingLeft="250dp"
+                android:paddingTop="150dp"
+                android:paddingRight="250dp"
+                android:paddingBottom="100dp"
+                android:scaleType="fitXY"
+                android:translationX="0dp"
+                android:translationY="0dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/a2a2a2"
+                tools:ignore="ContentDescription,MissingConstraints"
+                tools:srcCompat="@drawable/a2a2a2" />
+
+            <TextView
+                android:id="@+id/Sport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ellipsize="middle"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Спортивное питание"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/pp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="#05FFFFFF"
+                android:padding="0dp"
+                android:paddingLeft="250dp"
+                android:paddingTop="150dp"
+                android:paddingRight="250dp"
+                android:paddingBottom="150dp"
+                android:scaleType="fitXY"
+                android:translationX="0dp"
+                android:translationY="0dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/a1a1a"
+                tools:ignore="ContentDescription,MissingConstraints"
+                tools:srcCompat="@drawable/a1a1a" />
+
+            <TextView
+                android:id="@+id/PP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ellipsize="middle"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Правильное питание"
+                android:textSize="18sp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
